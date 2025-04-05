@@ -9,7 +9,7 @@ BAUD_RATE = 9600
 CSV_FILE = 'rfid_log.csv'
 BALANCE_FILE = 'balance_data.csv'  # Stores user balances
 RECHARGE_FILE = 'recharge_data.csv'  # Stores recharge transactions
-GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwQGOhaf_qSmpie-499Hl9o-dQVSNQwtBtxzsRqkcaw8Y39_E4cf0ZgR84bOlQ2n5Q/exec'  # Replace with your script URL
+GOOGLE_SCRIPT_URL = 'Do use your own LINK'  # Replace with your script URL
 
 # ---- SERIAL SETUP ----
 ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
